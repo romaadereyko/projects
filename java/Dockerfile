@@ -1,11 +1,13 @@
 from openjdk as build
 WORKDIR /app
 COPY app /app
-RUN javac Calculator.java
-CMD java Calculator
+RUN javac Hello.java
+#CMD javac Hello.java
+#CMD /bin/sh
+CMD java HelloWorld
 
 from openjdk as prod
 ENV TZ="Europe/Minsk"
 WORKDIR /app
-COPY /app/Calculator /app/Calculator
-CMD java Calculator
+copy --from=build /app/HelloWorld.class /app/HelloWorld.class
+CMD java HelloWorld
