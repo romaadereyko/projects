@@ -56,7 +56,7 @@ service_timeout: "240"
 
 ### Local variables
 
-Local variables stored in ./Diplom/roles/role_name/defaults/main.yml
+Local variables stored in ./Diplom/roles/role_name/defaults/main.yml  
 _Example from ./Diplom/roles/elk/defaults/main.yml_
 
 ```
