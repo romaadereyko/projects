@@ -8,6 +8,8 @@
 
 ## Installation
 
+_Download **[Diplom.tar.gz](https://drive.google.com/file/d/1R7jlRLCj2P0zV67Cz8p2EU7uYo4wRs01/view?usp=drive_link)**_
+
 ```
 apt update && apt install ansible -y
 tar -zxvf Diplom.tar.gz
