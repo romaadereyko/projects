@@ -132,11 +132,19 @@ Project has 7 roles:
 + **monitoring** for installing & setting up monitoring stack, which consists of Grafana, Prometheus, Node Exporter, CadVisor, Promtail, Loki
 + **cicd** for installing & setting up CICD stack, which consists of Postgresql, Bitbucket & Jenkins
 + **web** for installing & setting up NGINX-based web proxy
-+ **** for
++ **clean** for cleaning host machines from old builds!
 
 ### Playbooks
 
 Project has 3 playbooks:
 + **playbook/keys.yaml** for setting up localhost
-+ **playbook/diplom.yaml** for installing project
-+ **playbook/diplom.yaml** for cleaning old builds
++ **playbook/diplom.yaml** for installing project, which used roles:
+1. docker
+2. registry
+3. elk
+4. grafana
+5. cicd
+6. web
++ **playbook/clean.yaml** for cleaning old builds, which used roles:
+1. clean
+2. web
