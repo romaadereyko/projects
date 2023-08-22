@@ -8,9 +8,12 @@
 
 ## Installation
 
-`tar -zxvf Diplom.tar.gz`
-`cd Diplom`
-`ansible-playbook playbook/diplom.yaml`
+```
+apt update && apt install ansible -y
+tar -zxvf Diplom.tar.gz
+cd Diplom
+ansible-playbook playbook/diplom.yaml
+```
 
 ---
 
