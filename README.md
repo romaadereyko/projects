@@ -101,3 +101,10 @@ kib_environment:
  - "elasticsearch.hosts=http://elasticsearch:9200"
 #kib_root:
 ```
+
+### Playbooks
+
+Project has 3 global playbooks:
++ playbook/keys.yaml for setting up localhost
++ playbook/diplom.yaml for install project
++ playbook/diplom.yaml for cleaning old builds
