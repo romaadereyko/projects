@@ -15,7 +15,11 @@ cd Diplom
 ansible-playbook playbook/diplom.yaml
 ```
 
-Also you need to add to hosts file or to your DNS Server next A records:
+---
+
+## Setting up
+
+You need to add to hosts file or to your DNS Server next A records:
 + registry.zfcasino.by - Remote_Host's_IP
 + Kibana.zfcasino.by - Remote_Host's_IP
 + grafana.zfcasino.by - Remote_Host's_IP
