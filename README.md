@@ -29,6 +29,8 @@ You need to add to hosts file or to your DNS Server next A records:
 
 It can be changed in Nginx settings later.
 
+Also you should ask me to attach you in Telegram chat for receiving messaged about stages!
+
 ---
 
 ## Usage
@@ -148,3 +150,11 @@ Project has 3 playbooks:
 + **playbook/clean.yaml** for cleaning old builds, which used roles:
 1. clean
 2. web
+
+---
+
+## Working
+
+### This project is fully prepared, so you need to ask me logins & password for setting up/checking project!
+### After installing project Jenkins begin to connect Bitbucket Git repo with Jenkinsfile, then begin to test, build & deploy project in master branch.
+### After first building Jenkins waits for push events to repo and builds again.
