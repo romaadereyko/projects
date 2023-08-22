@@ -1,5 +1,5 @@
 <h1 align="center">This is diplom project of "TeachMeSkills" courses in group DOS-13-onl!</h1>
-
+---
 # Run this project with command below:
 
 `cd Diplom && ansible-playbook playbook/diplom.yaml`
