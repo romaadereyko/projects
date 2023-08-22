@@ -27,7 +27,7 @@ You need to add to hosts file or to your DNS Server next A records:
 + jenkins.zfcasino.by - Remote_Host's_IP
 + dev.zfcasino.by - Remote_Host's_IP
 
-You can change domain names in Nginx settings later.
+It can be changed in Nginx settings later.
 
 ---
 
