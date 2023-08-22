@@ -1,5 +1,7 @@
 <h1 align="center">This is diplom project of "TeachMeSkills" courses in group DOS-13-onl!</h1>
+
 ---
+
 # Installation
 
 `tar -zxvf Diplom.tar.gz`
