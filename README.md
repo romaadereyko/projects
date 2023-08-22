@@ -1,8 +1,10 @@
 <h1 align="center">This is diplom project of "TeachMeSkills" courses in group DOS-13-onl!</h1>
 ---
-# Run this project with command below:
+# Installation
 
-`cd Diplom && ansible-playbook playbook/diplom.yaml`
+`tar -zxvf Diplom.tar.gz`
+`cd Diplom`
+`ansible-playbook playbook/diplom.yaml`
 
 
 # Info from this project will come to "-1001943133599" Telegram chat!
