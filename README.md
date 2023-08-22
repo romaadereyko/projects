@@ -22,6 +22,7 @@ Also you need to add to hosts file or to your DNS Server next A records:
 + bitbucket.zfcasino.by - Remote_Host's_IP
 + jenkins.zfcasino.by - Remote_Host's_IP
 + dev.zfcasino.by - Remote_Host's_IP
+
 You can change domain names in Nginx settings later.
 
 ---
