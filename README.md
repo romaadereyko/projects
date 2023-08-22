@@ -157,4 +157,7 @@ Project has 3 playbooks:
 
 ### This project is fully prepared, so you need to ask me logins & password for setting up/checking project!
 ### After installing project Jenkins begin to connect Bitbucket Git repo with Jenkinsfile, then begin to test, build & deploy project in master branch.
+### On success Jenkins notificate in Telegram chat, send some info & bin file!
+### On abort Jenkins notificate in Telegram chat with Stage Name, where aborted!
+### On fail Jenkins notificate in Telegram chat with Stage Name, where failed!
 ### After first building Jenkins waits for push events to repo and builds again.
