@@ -1,8 +1,9 @@
 <h1 align="center">This is diplom project of "TeachMeSkills" courses in group DOS-13-onl by romaadereyko!</h1>
+## Project fully based on Debian-like OS, used Docker containers only, controlled by SystemD Service and installing by ansible command!
 
 ---
 
-# Installation
+## Installation
 
 `tar -zxvf Diplom.tar.gz`
 `cd Diplom`
@@ -102,15 +103,20 @@ kib_environment:
 #kib_root:
 ```
 
+### Roles
+
+Project has 7 roles:
++ **docker** for installing (not upgrading) docker on host machine
++ **registry** for setting up local docker registry with prepared images
++ **elk** for installing & setting up ELK stack with filebeat for logging project
++ **monitoring** for installing & setting up monitoring stack, which consists of Grafana, Prometheus, Node Exporter
++ **** for
++ **** for
++ **** for
+
 ### Playbooks
 
 Project has 3 playbooks:
 + **playbook/keys.yaml** for setting up localhost
 + **playbook/diplom.yaml** for installing project
 + **playbook/diplom.yaml** for cleaning old builds
-
-### Roles
-
-Project has 7 roles:
-+ **docker** for installing (not upgrading) docker on host machine
-+ **registry** for setting up local docker registry with prepared images
