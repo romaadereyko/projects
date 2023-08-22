@@ -104,7 +104,13 @@ kib_environment:
 
 ### Playbooks
 
-Project has 3 global playbooks:
-+ playbook/keys.yaml for setting up localhost
-+ playbook/diplom.yaml for install project
-+ playbook/diplom.yaml for cleaning old builds
+Project has 3 playbooks:
++ **playbook/keys.yaml** for setting up localhost
++ **playbook/diplom.yaml** for installing project
++ **playbook/diplom.yaml** for cleaning old builds
+
+### Roles
+
+Project has 7 roles:
++ **docker** for installing (not upgrading) docker on host machine
++ **registry** for setting up local docker registry with prepared images
