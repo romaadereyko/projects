@@ -15,6 +15,15 @@ cd Diplom
 ansible-playbook playbook/diplom.yaml
 ```
 
+Also you need to add to hosts file or to your DNS Server next A records:
++ registry.zfcasino.by - Remote_Host's_IP
++ Kibana.zfcasino.by - Remote_Host's_IP
++ grafana.zfcasino.by - Remote_Host's_IP
++ bitbucket.zfcasino.by - Remote_Host's_IP
++ jenkins.zfcasino.by - Remote_Host's_IP
++ dev.zfcasino.by - Remote_Host's_IP
+You can change domain names in Nginx settings later.
+
 ---
 
 ## Usage
@@ -114,10 +123,10 @@ kib_environment:
 Project has 7 roles:
 + **docker** for installing (not upgrading) docker on host machine
 + **registry** for setting up local docker registry with prepared images
-+ **elk** for installing & setting up ELK stack with filebeat for logging project
-+ **monitoring** for installing & setting up monitoring stack, which consists of Grafana, Prometheus, Node Exporter
-+ **** for
-+ **** for
++ **elk** for installing & setting up ELK stack with filebeat for logging project & builds
++ **monitoring** for installing & setting up monitoring stack, which consists of Grafana, Prometheus, Node Exporter, CadVisor, Promtail, Loki
++ **cicd** for installing & setting up CICD stack, which consists of Postgresql, Bitbucket & Jenkins
++ **web** for installing & setting up NGINX-based web proxy
 + **** for
 
 ### Playbooks
